@@ -110,3 +110,13 @@ aside > h2 {
     word-break: break-all;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .mailNum{
+    font-size: 17px;
+  }
+
+  .imgIdentity > img{
+    display: none;
+  }
+}
