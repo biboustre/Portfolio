@@ -1,0 +1,62 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.titleSection{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  height: 100vh;
+  gap: 50px;
+  position: fixed;
+  z-index: 2;
+}
+
+.liensHeader{
+  display: flex;
+  flex-direction: column;
+  font-size: 21px;
+  font-family: "paprika";
+  height: 100vh;
+  gap: 110px;
+}
+
+.redirection {
+  transform: rotate(270deg);
+  color: white;
+  display: inlin-block;
+}
+
+.redirection:hover{
+  color: orange;
+}
+
+.activeRedirection{
+  color: orange;
+}
+
+.surnom{
+  font-family: "Rock 3D";
+  font-size: 130px;
+  margin-left: 10px;
+}
+
+
+@media screen and (max-width: 790px) {
+  header{
+    padding: 0 0 0;
+  }
+}
+@media screen and (max-width: 690px) {
+.liensHeader{
+  font-size: 13px;
+}
+.surnom{
+  font-size: 100px;
+}
+
+}
+
+

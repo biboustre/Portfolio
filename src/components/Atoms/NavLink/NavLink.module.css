@@ -1,0 +1,36 @@
+.icon{
+    font-size: 30px;
+    transition: transform 0.3s ease;
+}
+
+.liens_globale {
+    text-decoration: none;
+    color: white;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .liens_globale:hover {
+    /* box-shadow: 3px 3px 10px; */
+    box-shadow: none;
+  }
+  
+  .icon:hover{
+    transform: scale(1.2);
+  }
+
+  @media screen and (max-width: 690px) {
+    .liens_globale{
+      height: 35px;
+      width:35px ;
+    }
+
+    .icon{
+      font-size: 20px;
+    }
+  }

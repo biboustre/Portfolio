@@ -1,0 +1,40 @@
+.capsule {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: rgb(162, 146, 122);
+  height: 120px;
+  width: 400px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: "paprika";
+  transition: all 0.3s;
+}
+
+.details > h1 {
+  font-size: 30px;
+  font-weight: normal;
+}
+.details > p {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.iconCapsules {
+  margin-left: 20px;
+  font-size: 50px;
+}
+
+.capsule:hover {
+  box-shadow: 8px 8px 20px rgba(255, 255, 255, 0.726);
+  height: 120px;
+  width: 390px;
+}
+
+@media screen and (max-width: 580px) {
+  .capsule {
+    width: 80%;
+  }
+}

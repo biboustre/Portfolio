@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: Montserrat; */
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.presentation {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 90px; */
+  /* color: white; */
+}
+
+.mainPresentation {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.mainPresentation > h1 {
+  font-size: 2.1vw;
+  font-family: Arial;
+  font-weight: 400;
+}
+.mainPresentation > h2,
+h3 {
+  font-size: 7.9vw;
+}
+
+.mainPresentation {
+  font-family: "paprika";
+  font-size: 30px;
+}
+
+/******** main ********/
+.portfolioProject {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  /* padding: 0 10%; */
+}
+
+.titleProjects{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.titleProjects > h1{
+  font-size: 40px;
+  font-family: serif;
+  font-weight: 400;
+}
+
+.titleProjects > h2{
+  font-size: 60px;
+  font-family: "paprika";
+  font-weight: 400;
+}
+
+.mainProjects{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap:29px;
+  margin-bottom: 100px;
+  /* width: 80%; */
+  padding: 0 50px;
+}
+
+.mainAccueil {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 200px;
+  color: whitesmoke;
+  /* margin:100px 0; */
+}
+
+.mainSkills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80% ;
+  /* gap: 80px; */
+  opacity: 0;  
+  margin-top: 100px;
+  height: 100vh;
+  animation: flash2 0.9s ease-in-out 0.2s forwards;
+}
+
+
+
+.titleSkills > h1 {
+  font-size: 40px;
+  font-family: serif;
+  font-weight: 400;
+}
+.titleSkills > h2 {
+  font-size: 60px;
+  font-family: "paprika";
+}
+.mainCapsule {
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 100%; */
+  justify-content: center;
+  gap: 30px;
+  width: 100vw;
+}
+
+.titleSkills{
+  margin-bottom: 50px;
+}
+
+.titleSkills, .titleProjects {
+  animation: flash 0.9s ease-in-out 0.2s;
+  animation-fill-mode: both;
+}
+
+.capsule1, .fig1 {
+  opacity: 0; 
+  animation: flash2 0.9s ease-in-out 0.1s forwards;
+}
+
+.capsule2, .fig2 {
+  opacity: 0;
+  animation: flash2 0.9s ease-in-out 0.5s forwards;
+}
+
+.capsule3, .fig3 {
+  opacity: 0;
+  animation: flash2 0.9s ease-in-out 0.9s forwards;
+}
+
+.capsule4, .fig4 {
+  opacity: 0;
+  animation: flash2 0.9s ease-in-out 1.3s forwards;
+}
+
+.capsule5 {
+  opacity: 0;
+  animation: flash2 0.9s ease-in-out 1.7s forwards;
+}
+
+/* .linkFigure{
+  height: auto;
+} */
+
+@keyframes flash2 {
+  0% {
+    opacity: 0;
+    transform: translateY(150px); 
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); 
+  }
+}
+
+
+@keyframes flash {
+  0% {
+    scale: 0;
+  }
+  100% {
+    scale: 1;
+  }
+}
+
+.hrAccueil{
+  height: 1px;
+  margin: auto;
+  width: 66%;
+}
+/* Media queries RESPONSIVE */
+
+@media screen and (max-width: 620px) {
+  .titleSkills > h1 {
+    font-size: 60px;
+  }
+  .titleSkills > h2 {
+    font-size: 40px;
+  }
+}
+/*OU*/
+@media screen and (max-width: 750px ) {
+  .titleProjects > h1{
+    font-size: 30px;
+  }
+  .titleProjects > h2{
+    font-size: 30px;
+  }
+  .titleProjects {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 690px ) {
+  .mainPresentation > h1{
+    font-size: 15px;
+  }
+}
