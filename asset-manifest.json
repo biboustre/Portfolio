@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.95135aed.css",
+    "main.css": "/Portfolio/static/css/main.c731e17c.css",
     "main.js": "/Portfolio/static/js/main.69872bdc.js",
     "static/media/img2.wallspic.com-yosemite_falls-tunnel_de_wawona-demi_dome-le_parc_national_de-death_valley_national_park-5242x3495.jpg": "/Portfolio/static/media/img2.wallspic.com-yosemite_falls-tunnel_de_wawona-demi_dome-le_parc_national_de-death_valley_national_park-5242x3495.207757f09f827f239e68.jpg",
     "static/media/Capture d'écran 2024-03-15 024541.png": "/Portfolio/static/media/Capture d'écran 2024-03-15 024541.07765031e14b060a445c.png",
@@ -8,11 +8,11 @@
     "static/media/Capture d'écran 2024-03-14 011406.png": "/Portfolio/static/media/Capture d'écran 2024-03-14 011406.020a6b676f8af6f6b9ac.png",
     "static/media/Capture d'écran 2024-03-13 143917.png": "/Portfolio/static/media/Capture d'écran 2024-03-13 143917.7ebe411def722178f46f.png",
     "index.html": "/Portfolio/index.html",
-    "main.95135aed.css.map": "/Portfolio/static/css/main.95135aed.css.map",
+    "main.c731e17c.css.map": "/Portfolio/static/css/main.c731e17c.css.map",
     "main.69872bdc.js.map": "/Portfolio/static/js/main.69872bdc.js.map"
   },
   "entrypoints": [
-    "static/css/main.95135aed.css",
+    "static/css/main.c731e17c.css",
     "static/js/main.69872bdc.js"
   ]
 }
