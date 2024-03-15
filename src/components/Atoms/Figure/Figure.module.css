@@ -18,12 +18,11 @@
   height: 80%;
   width: 100%;
   border-radius: 15px;
+  transition: all 0.3s;
 }
 
-.projets:hover {
-    /* box-shadow: 10px 10px 10px rgba(9, 9, 9, 0.726); */
-    height: 512px;
-    width: 502px;
+.projets > img:hover {
+    box-shadow:   0 0 10px 5px rgba(224, 216, 216, 0.262);
   }
 
 @media screen and (max-width: 680px) {
@@ -39,11 +38,6 @@
     width: 200px;
   }
 
-  .projets:hover {
-    /* box-shadow: 10px 10px 10px rgba(9, 9, 9, 0.726); */
-    height: 190px;
-    width: 190px;
-  }
 }
 @media screen and (max-width: 620px) {
   .projets {
