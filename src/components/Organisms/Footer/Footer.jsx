@@ -1,5 +1,5 @@
 import styles from "../Footer/Footer.module.css";
-import Yosemite from "../../../assets/images/img2.wallspic.com-yosemite_falls-tunnel_de_wawona-demi_dome-le_parc_national_de-death_valley_national_park-5242x3495.jpg";
+import Yosemite from "../../../assets/images/yosemite.jpg";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
